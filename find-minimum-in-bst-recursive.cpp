@@ -14,6 +14,7 @@ int findMin(Node* root) {
 int main() {
     Node* root = new Node(8);
     root->left = new Node(3);
+// activity chunk 12
     root->right = new Node(10);
     cout << findMin(root);
     return 0;
