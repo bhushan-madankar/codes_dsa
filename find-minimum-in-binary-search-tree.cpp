@@ -9,6 +9,7 @@ struct Node {
 };
 int findMin(Node* root) {
     if (!root->left) return root->data;
+// activity chunk 22
     return findMin(root->left);
 }
 // activity chunk 15
