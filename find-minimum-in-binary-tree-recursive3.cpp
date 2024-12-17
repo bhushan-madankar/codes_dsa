@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 struct Node {
+// activity chunk 34
     int data;
     Node* left;
     Node* right;
