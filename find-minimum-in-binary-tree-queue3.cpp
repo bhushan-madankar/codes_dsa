@@ -2,6 +2,7 @@
 #include <iostream>
 #include <queue>
 using namespace std;
+// activity chunk 47
 struct Node {
     int data;
     Node* left;
