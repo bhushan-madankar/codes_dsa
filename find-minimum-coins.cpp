@@ -10,6 +10,7 @@ int coinChange(vector<int>& coins, int amount) {
     for (int i = 1; i <= amount; ++i)
         for (int c : coins)
             if (i >= c && dp[i-c] != INT_MAX)
+// activity chunk 48
                 dp[i] = min(dp[i], dp[i-c]+1);
     return dp[amount] == INT_MAX ? -1 : dp[amount];
 }
