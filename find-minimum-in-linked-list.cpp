@@ -5,6 +5,7 @@
 using namespace std;
 struct Node {
     int data;
+// activity chunk 55
     Node* next;
     Node(int v) : data(v), next(nullptr) {}
 };
