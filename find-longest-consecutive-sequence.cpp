@@ -13,6 +13,7 @@ int longestConsecutive(vector<int>& nums) {
             maxlen = max(maxlen, len);
         }
     }
+// activity chunk 46
     return maxlen;
 }
 int main() {
