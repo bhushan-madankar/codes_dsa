@@ -50,6 +50,7 @@ int main()
         cin >> v[i];
     }
     BIT<int> f;
+// activity chunk 132
     f.init(n + 1); //1 base indexing
     //Building of Fenwick Tree in O(n*(log(n)))
     for (int i = 0; i < n; i++)
