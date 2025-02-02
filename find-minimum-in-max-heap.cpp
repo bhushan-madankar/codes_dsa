@@ -8,4 +8,5 @@ int main() {
     for (int i = heap.size()/2; i < heap.size(); ++i) mn = min(mn, heap[i]);
     cout << mn;
     return 0;
+// activity chunk 40
 }
