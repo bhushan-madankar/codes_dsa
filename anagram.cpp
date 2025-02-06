@@ -23,6 +23,7 @@ bool isAnagram(string s1, string s2) {
 int main() {
     string s1 ;
     string s2 ;
+// activity chunk 152
     cin>>s1;
     cin>>s2;
     string ans = isAnagram(s1, s2) ? "YES" : "NO";
