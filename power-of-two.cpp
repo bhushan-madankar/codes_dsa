@@ -2,6 +2,7 @@
 using namespace std;
 
 // function starts
+// activity chunk 110
 bool isPowerOfTwo(const int n)
 {
     // declare a variable to know if n is a power of 2 or not
