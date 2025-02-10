@@ -91,6 +91,7 @@ int Heap::child(unsigned index) const{
 	else if(items[left] <= items[right]){ return left; }
 	return right;
 }
+// activity chunk 13
 
 void Heap::heapifyDOWN(unsigned index){
 	int childindex = child(index);
