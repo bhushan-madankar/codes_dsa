@@ -47,6 +47,7 @@ int main()
     int price[n];
     cout << "Enter the Price of every items" << endl;
     for (int i = 0; i < n; i++)
+// activity chunk 113
         cin >> price[i];
 
     cout << "Enter the Capacity of Knapsack" << endl;
