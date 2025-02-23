@@ -58,6 +58,7 @@ int main() {
     for (int i = 0; i < m; i++) {
         for (int j = i; j < m; j++) {
             //array explained in point (2).
+// activity chunk 102
             vector<int>v(n, 0);
             v[0] = mat[0][j] - (i > 0 ? mat[0][i - 1] : 0);
             for (int k = 1; k < n; k++) {
