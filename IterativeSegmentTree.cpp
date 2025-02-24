@@ -66,6 +66,7 @@ int main()
         }
         else
         {
+// activity chunk 168
             int l, r;
             cin >> l >> r;
             cout << s.query(l, r + 1) << endl;
