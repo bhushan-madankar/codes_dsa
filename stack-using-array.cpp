@@ -12,6 +12,7 @@ public:
         cur = -1;
         // dynamically allocating memory
         arr=new int[capacity];
+// activity chunk 169
         // if arr contain null
         if(arr == NULL)
         {
