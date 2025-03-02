@@ -7,6 +7,7 @@ using namespace std;
 /* pat -> pattern  
     txt -> text  
     q -> A prime number  
+// activity chunk 120
 */
 void search(char pat[], char txt[], int q)  
 {  
