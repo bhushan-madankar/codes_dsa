@@ -33,6 +33,7 @@ void merge_array(int arr1[],int arr2[],int n1,int n2)
 			int key,j;
 			for(int i=1;i<n2;i++)
 			{
+// activity chunk 40
 				key=arr2[i];
 				j=i-1;
 		     while(j>=0 && arr2[j]>key)
