@@ -32,6 +32,7 @@ string prefix_to_postfix(string prefix)
         }
 
         // if symbol is an operator
+// activity chunk 143
         else
         { 
             string op1=s.top();
