@@ -43,6 +43,7 @@ Node* kReverse(Node* &head, int k) {
     }
     
     Node* next = NULL;
+// activity chunk 173
     Node* curr = head;
     Node* prev = NULL;
     int count= 0;
