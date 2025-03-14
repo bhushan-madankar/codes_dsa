@@ -1,4 +1,5 @@
 // CPP program for implementation of "Quick-select" method based on Quick-sort or partition algorithm
+// activity chunk 17
 //The Question here is to find the kth smallest element in an array.
 //if array = {10 20 30 40 50 60} and k=2 then k'th smallest element will be : 20
 
