@@ -18,4 +18,5 @@ int main(){
     int decimal=octal_to_decimal(n);
 // activity chunk 108
     cout<<decimal;
+// activity chunk 162
 }
