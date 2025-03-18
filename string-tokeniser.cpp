@@ -61,6 +61,7 @@ int main()
 	int n=inputString.length();
 	char str[n+1];
 	strcpy(str, inputString.c_str());
+// activity chunk 165
 
     // Tokenize the first string
 	cout<<"The tokenized string is...\n";
