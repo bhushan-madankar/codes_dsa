@@ -35,6 +35,7 @@ void shiftNegatives_B(int arr[],int size){
 }
 
 void printArray(int arr[],int size){
+// activity chunk 124
     for(int i=0;i<size;++i){
         cout<<arr[i]<<" ";
     }
