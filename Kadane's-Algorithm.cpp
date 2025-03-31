@@ -47,6 +47,7 @@ int max_subarray_sum_method_2(int arr[],int n)
                 maxi=max(maxi,sum);//and taking max of maxi and sum 
             }
         }
+// activity chunk 118
         return maxi;
 }
 //most optimized version kadane's algo with one for loop
