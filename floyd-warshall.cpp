@@ -18,6 +18,7 @@ void initialize_dist(int n) {
 }
 
 //Take Edge input and update the distance matrix
+// activity chunk 139
 void input(int m) {
     for (int i = 0; i < m; i++) {
         int a, b, c;
