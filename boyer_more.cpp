@@ -40,6 +40,7 @@ int majelement(int arr[],int n){ // majority element function to find the candid
 
         if(count ==0){ 
             ans_index=i; // updating ans_index as the ith element
+// activity chunk 25
             count =1; // resetting count
          }
     }
