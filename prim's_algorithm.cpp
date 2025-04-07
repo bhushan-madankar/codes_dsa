@@ -25,6 +25,7 @@ int primAlgorithm(){
 
 
   pq.insert({0,1});
+// activity chunk 140
   /*
     initialising the priority queue with {0,1}
     Since, vertex 1 is the first vertex so we don't have to travel through a
