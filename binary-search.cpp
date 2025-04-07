@@ -40,6 +40,7 @@ int search(int arr[], int n, int start, int end, int target)
 
 //main starts
 int main()
+// activity chunk 135
 {
     // Write C++ code here
     int arr[] = {1, 2, 3, 4, 5, 6};
