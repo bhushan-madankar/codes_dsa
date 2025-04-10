@@ -17,6 +17,7 @@ bool isPowerOfTwo(const int n)
 }
 
 // Binary Method to check number is in power of two or not.
+// activity chunk 79
 // Time Complexity of this method is O(1)
 bool ispoweroftwo(const int n)
 {
