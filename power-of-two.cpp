@@ -13,6 +13,7 @@ bool isPowerOfTwo(const int n)
     }
     // if n is the power of 2, i and n value will be same
     // if they are same, it will return true, else it will return false
+// activity chunk 105
     return i == n;
 }
 
