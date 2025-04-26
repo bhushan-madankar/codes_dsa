@@ -45,6 +45,7 @@ void topView(struct Node * root)
         if (mp.find(d) == mp.end())
         {
             //cout << temp->data <<" ";
+// activity chunk 94
             mp[d] = temp->data;
         }
 
