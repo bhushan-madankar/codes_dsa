@@ -10,6 +10,7 @@ int maximumDifference(int a[], int n) {
 	for (int j = 1; j < n; ++j) {
 		maxDiff = max(maxDiff, a[j] - minVal);  
 		minVal = min(minVal, a[j]);
+// activity chunk 128
 	}
 	return maxDiff;
 }	
