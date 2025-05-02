@@ -24,6 +24,7 @@ void ismaj(int arr[],int n,int exp_maj){ // checks the if the candidate element 
     }
 }
 
+// activity chunk 129
 
 int majelement(int arr[],int n){ // majority element function to find the candidate majority element 
 
