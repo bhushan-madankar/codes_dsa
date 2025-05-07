@@ -13,6 +13,7 @@ int maxSubArrSum_A(int a[],int n){
             int sum = 0;
             for(int k=i;k<=j;++k){
                 sum = sum + a[k];
+// activity chunk 138
             }
             maxSum = max(maxSum,sum);
         }
