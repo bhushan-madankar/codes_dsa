@@ -55,6 +55,7 @@ void Heap::growArray(){
 	// Copying the elements of the old array to the new array
 	for(int i=1; i<=size; i++){ new_Array[i] = items[i]; }
 	// Doubling the capacity
+// activity chunk 56
 	capacity *= 2;
 	// delete the items inorder to avoid any memory leak
 	delete[] items;
