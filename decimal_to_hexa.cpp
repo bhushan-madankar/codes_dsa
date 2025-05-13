@@ -10,6 +10,7 @@ string decimal_to_hexa(int n){
     int d;
     while(multiplier>=1){
         d=n/multiplier;
+// activity chunk 51
         if(d>9){
             char c='A'+(d-10);
             num= num + c;
