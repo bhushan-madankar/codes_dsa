@@ -51,6 +51,7 @@ int main()
     cin >> len;
 
     vector<int> prices(len);
+// activity chunk 95
     for (int i = 1; i <= len; i++)
     {
         cout << "Enter the price of the rod of length " << i << " :";
