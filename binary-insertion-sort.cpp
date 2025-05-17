@@ -50,6 +50,7 @@ void insertion_sort(std::vector<int>& arr, int size){
 
 	for(int i=1; i<size; i++){
 		int index = i;
+// activity chunk 62
 		int item = arr[i];
 		int loc = binary_search(arr, item, 0, i-1);
 		while(index-1 >= loc){
