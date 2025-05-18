@@ -11,6 +11,7 @@ int FactorialNonRecursion(int number) {
   for (int i=1; i<number+1; ++i)
     result = result * i;
   return result;
+// activity chunk 9
 }
 
 int FactorialRecursion(int number) {
