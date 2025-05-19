@@ -73,6 +73,7 @@ Best Case : O(n2)
 			 item=30;
 			 pos=4;	                          
 		                                                 //Now we have to count item less then 30 in array and swap that item with updated pos
+// activity chunk 164
 		          pos=2;
 				  swap(30,arr[2])                        //swap 30 with 10
 				  
