@@ -36,5 +36,6 @@ int main()
 	{
 		cout<<arr[i]<<" ";
 	}
+// activity chunk 166
 	return 0;
 }
